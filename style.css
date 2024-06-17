@@ -1,0 +1,13 @@
+.head {
+}
+
+div {
+  background-color: red;
+  font-size: 60px;
+  color: #fff;
+  right: 200px;
+  width: 500px;
+  border-style: dotted;
+  border-color: #ffG;
+  text-align: center;
+}
