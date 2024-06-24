@@ -4,8 +4,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <div>Testando CSS</div>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <div class="title-css">Testando CSS</div>
   </head>
+  <!---Conteudo--------------------------------------------------------------------->
+
+  <!---Conteudo--------------------------------------------------------------------->
+
+  <!---inicio footer-->
+  <footer class="footer" id="footer">
+    <div class="footer__conteiner-columns">
+      <!-- propriedade contener de todas as 3 colunas  ----->
+
+      <div class="footer__conteiner-colum">
+        <!--contenter colum trata cada colunas ------->
+        <img class="footer__image" src="./image/logo_Mon_T.png" alt="logo " />
+      </div>
+      <!--Footer__containes-hours para tratar bloco individualmente ---------->
+      <div class="footer__conteiner-colum footer__conteiner-hours">
+        <h2 class="footer__info-title">horarios</h2>
+
+        <ul class="footer__list">
+          <li class="footer__list-item">Seg à Sex 10hrs às 19 Hrs</li>
+          <li class="footer__list-item">Sab à dom 10hrs às 17 Hrs</li>
+        </ul>
+      </div>
+      <!--Footer__containes-social para tratar bloco individualmente ---------->
+      <div class="footer__conteiner-colum footer__conteiner-social">
+        <!-- propriedade das colunas  ----->
+        <h2 class="footer__info-title">Redes Sociais</h2>
+        <!-- propriedade da h2 ----->
+        <ul class="footer__list">
+          <!-- propriedade das listas dentro do footer ----->
+          <li class="footer__list-item">
+            <a href="#" class="footer__list-link">
+              <img
+                class="footer__list-ico"
+                src="./image/facebook_white.svg"
+                alt="lofo facebook"
+              />Facebook
+            </a>
+          </li>
+
+          <li class="footer__list-item">
+            <!-- itens de uma lista ----->
+            <a href="#" class="footer__list-link">
+              <!-- propriedade do link ----->
+              <img
+                class="footer__list-ico"
+                src="./image/instagram_white.svg"
+                alt="logo instagram"
+              />Instagram</a
+            >
+            <!-- propriedade da imagem dentro da lista----->
+          </li>
+        </ul>
+      </div>
+      <!--Fim das colunas ------------------------------------------------------------------>
+    </div>
+    <p class="footer__copywrite">2024 - Alexandre Santos</p>
+  </footer>
   <body></body>
 </html>
